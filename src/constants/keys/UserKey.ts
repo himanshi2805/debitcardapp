@@ -1,5 +1,5 @@
-export const GET_USER = 'GET_USER';
-export const SET_USER = 'SET_USER';
+export const GET_USER_CARD = 'GET_USER_CARD';
+export const SET_USER_CARD = 'SET_USER_CARD';
 
 export const UPDATE_WEEKLY_LIMIT = 'UPDATE_WEEKLY_LIMIT';
 
