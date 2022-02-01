@@ -3,7 +3,7 @@ import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 import {useNavigation} from '@react-navigation/core';
 import {Images, fontSize24, fontWeightBold, Colors} from '@app/core-ui';
 import {moderateScale} from '@app/helpers';
-import {NavigationHeaderProps} from 'components';
+import {NavigationHeaderProps} from '@app/components';
 
 export const NavigationHeader: FC<NavigationHeaderProps> = ({
   hasBack = false,

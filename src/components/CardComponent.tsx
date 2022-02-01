@@ -10,7 +10,7 @@ import {
   fontSize12,
 } from '@app/core-ui';
 import {formateCardNumber, moderateScale} from '@app/helpers';
-import {CardComponentProps} from 'components';
+import {CardComponentProps} from '@app/components';
 
 export const CardComponent: FC<CardComponentProps> = ({cardData}) => {
   const [detailVisible, setDetailVisible] = useState(false);

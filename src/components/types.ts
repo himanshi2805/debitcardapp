@@ -19,3 +19,8 @@ export interface ButtonProps {
 export interface CardComponentProps {
   cardData: CardState;
 }
+export interface TabBarIconProps {
+  icon: any;
+  size: number;
+  color: string;
+}

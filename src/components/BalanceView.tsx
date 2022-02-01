@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {fontWeightBold, Colors, fontSize11, fontSize24} from '@app/core-ui';
-import {BalanceViewProps} from 'components';
+import {BalanceViewProps} from '@app/components';
 
 export const BalanceView: FC<BalanceViewProps> = ({
   amount = '',
